@@ -124,7 +124,7 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CRONJOBS = [
-    ('15 16 * * *', 'oma_mail.cron.send_oma_mail'),
+    ('25 11 * * *', 'oma_mail.cron.send_oma_mail'),
 ]
 
 # Email Settings
